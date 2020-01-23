@@ -98,7 +98,7 @@ function setSizes()
 function initGrid(grid)
 {
     //grid.setImagePath("dhtmlx/skins/web/imgs/dhxgrid_terrace/");
-    grid.setHeader("코드,과목명,분반,교수님,..,학점,비고,정원,설계,개설학부");
+    grid.setHeader("코드,과목명,분반,교수님,..,학점,구분,정원,설계,개설학부");
     grid.setInitWidths("55,150,40,60,20,40,40,40,40,100");
     grid.setColAlign("left,left,left,left,left,left,left,left,left");
     grid.setColTypes("txt,txt,txt,txt,txt,txt,txt,txt,txt,txt");
